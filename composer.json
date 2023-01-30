@@ -1,0 +1,17 @@
+{
+    "name": "leadinfo/excercise",
+    "type": "project",
+    "autoload": {
+        "files": [
+            "./src/helpers.php"
+        ],
+        "psr-4": {
+            "Leadinfo\\Excercise\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
